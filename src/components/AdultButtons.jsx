@@ -9,7 +9,7 @@ export default function AdultButtons({valueAdult,setValueAdult}) {
         setValueAdult(prevState=>--prevState)}
     }
   return (
-    <article className='h-3/5  w-3/5'>
+    <article className='h-3/5  w-3/5 ms-4 md:ms-0'>
                         <h2 className='font-bold'>Adult</h2>
                         <h2 className='text-gray-400'>Age 13 or above</h2>
                        <div className='flex gap-x-2'>

@@ -4,7 +4,7 @@ export default function Locations({value,setValue}) {
   return (
     <div className='  h-full w-[32%] ms-2'>
       
-    <ul className='flex flex-col ' onClick={(e)=> setValue(e.target.textContent)}>
+    <ul className='flex flex-col gap-8 ms-4 md:ms-0 md:gap-0' onClick={(e)=> setValue(e.target.textContent)}>
         <li className=' flex text-gray-500 cursor-pointer' value={"Helsinki"}>
             <figure className='me-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
