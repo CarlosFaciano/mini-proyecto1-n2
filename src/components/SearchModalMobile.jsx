@@ -18,7 +18,7 @@ export default function SearchModalMobile({open,setOpen,value,setValue,openOptio
   }
 
   return (
-    <section className='shadow-lg absolute  w-full h-2/3 bg-slate-100 top-0 md:hidden'>
+    <section className='shadow-lg absolute  w-full h-[90%] bg-slate-100 top-0 md:hidden'>
     <span className='flex justify-end text-2xl cursor-pointer me-2' onClick={()=>setOpen(!open)}>&times;</span>
     <h1 className='m-4 font-bold'>Edit your search</h1>
     <div className='w-[90%] mt-2 shadow-lg rounded-xl mx-auto flex-col  bg-white'>
