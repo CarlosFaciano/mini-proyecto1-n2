@@ -6,7 +6,7 @@ export default function NavBar({open, setOpen,location, finland,guest}) {
     return (
         <>
         <nav className=' shadow-lg w-full justify-between items-center hidden md:flex'>
-            <img className='w-32 h-32 ms-4' src="./public/logo.beef9462.svg" alt="" />
+            <img className='w-32 h-32 ms-4' src="/logo.beef9462.svg" alt="" />
             <div className='bg-white shadow-lg rounded-lg me-4 h-12 flex' onClick={()=>setOpen(!open)}>
                 <button className='border-e-[1px] border-gray-300 h-full px-5 flex items-center font-bold' >{finland}</button>
                 <button className='h-full px-5 text-gray-400 border-e-[1px] flex  items-center' >{guest}</button>
